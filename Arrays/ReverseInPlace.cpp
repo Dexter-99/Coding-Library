@@ -1,11 +1,5 @@
 #include <iostream>
 using namespace std;
-void swap(int &a, int &b)
-{
-  a = a ^ b;
-  b = b ^ a;
-  a = a ^ b;
-}
 void reverse(int a[], int n)
 {
 

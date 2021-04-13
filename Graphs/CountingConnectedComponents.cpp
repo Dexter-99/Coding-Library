@@ -24,7 +24,7 @@ void bfs(vector<int> adj[], int s, bool visited[])
 }
 void bfsDis(vector<int> adj[], int v)
 {
-  bool visited[v + 1];
+  bool visited[v];
   int count = 0;
   for (int i = 0; i < v; i++)
   {
